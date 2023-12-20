@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bling collections ✨</title>
+    <link rel="shortcut icon" href="Bling logo.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,400;1,6..96,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+ 
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="Bling logo.png " height="200" width="200" />
+        </div>
+        <!-- <div clas="search">
+            <input type="text" placeholder="search" class="searching">
+            
+          </div>
+          <div>
+            <img src="search.png" class="searchlogo">
+          </div>-->
+         
+        <div class="options">
+          <a href="#" class="opt">Home</a>
+          <a href="#" class="opt">About </a>
+          <a href="#" class="opt">Services</a>
+          <a href="#"class="opt">Acount</a>
+        </div>
+      </header>
+      <main class="main" >
+        <left>
+        <div class="left">
+          <h1>BLING COLLECTIONS</h1>
+          <p>The luxury of dirt.</p>
+        </left>
+           <div class="grid">
+            <div class="slideshow" style="max-width: 500px;">
+              <img class="myslide" src="model1.png" style="width:100%">
+              <img class="myslide" src="model2.png" style="width:100%" >
+              <img class="myslide" src="model3.png" style="width:100%" >
+              <img class="myslide" src="model4.png" style="width:100%" >
+              <img class="myslide" src="model5.png" style="width:100%" >
+                            <script>
+                                var myindex=0;
+                                carousel();
+
+                                function carousel(){
+                                  var i;
+                                  var x=document.getElementsByClassName("myslide");
+                                  for(i=0;i<x.length;i++){
+                                    x[i].style.display="none";
+                                  
+                                  }
+                                  myindex++;
+                                  if(myindex>x.length)
+                                  {
+                                    myindex=1
+                                  }
+                                  x[myindex-1].style.display="block";
+                                  setTimeout(carousel,2000);
+                                }
+                             </script>
+
+            </div>
+
+          <p style="position: relative;" class="para">
+            It is a manifestation of individuality and societal aspirations, providing a canvas for designers to express creativity and innovation. Beyond fabric and stitches, luxury fashion embodies a lifestyle, narrating stories of opulence and refinement. The allure lies in the meticulous attention to detail, superior materials, and the prestige associated with iconic brand Bling Collections.
+          </p>
+        </div>
+      
+        <aside>
+          <div class="aside">
+         
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+        <a href="#"><img src="insta.png" height="26"  class="social"></a>
+        <a href="#"> <img src="twi logo.png" height="30" class="social"/></a>
+        <a href="#"><img src="yt.png" height="30"  class="social" ></a>
+        <a href="#"><img src="fb.png" height="30"  class="social" /></a>
+        <a href="#"><img src="pintrest.png" height="30"  class="social" /></a>
+        <a href="#"><img src="mail.png" height="30"   class="social"/></a>
+        <a href="#"><img src="whatsapp logo.png" height="30"   class="social"/></a>
+      </div>
+      </footer>
+    </div>
+  </body>
+</html>
